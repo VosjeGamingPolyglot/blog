@@ -151,7 +151,7 @@ body {
     align-items: center;
     min-height: 200px;
     max-height: 450px;
-    padding: 10vw 4vw;
+    padding: 4vw 4vw;
     text-align: center;
 }
 
@@ -264,6 +264,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 10px 12px;
     color: #fff;
     opacity: 0.8;
+    font-size: large;
 }
 
 .nav li a:hover {
@@ -308,11 +309,15 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .social-link-fb svg {
-    height: 1.5rem;
+    height: 2.1rem;
 }
 
 .social-link-wb svg {
-    height: 1.6rem;
+    height: 2.2rem;
+}
+
+.social-link-tw svg {
+    height: 2.9rem;
 }
 
 .social-link-wb svg path {
@@ -348,7 +353,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .rss-button svg {
-    height: 2.1rem;
+    height: 3.2rem;
     margin-bottom: 1px;
     fill: #fff;
 }
@@ -538,7 +543,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-template .site-main,
 .page-template .site-main {
-    padding-bottom: 4vw;
+    padding-bottom: 1vw;
     background: #fff;
 }
 
@@ -615,6 +620,8 @@ The first (most recent) post in the list is styled to be bigger than the others 
     font-size: 2.2rem;
     line-height: 1.6em;
     background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
 }
 
 @media (max-width: 1170px) {
@@ -1149,7 +1156,7 @@ Usage (In Ghost editor):
     align-items: center;
     max-width: 840px;
     margin: 0 auto;
-    padding: 3vw 0 6vw 0;
+    padding: 1vw 0 1vw 0;
 }
 
 .author-card {
@@ -1467,7 +1474,8 @@ Usage (In Ghost editor):
 }
 
 .floating-header-share-tw,
-.floating-header-share-fb {
+.floating-header-share-fb,
+.floating-header-share-linkedin {
     display: block;
     align-items: center;
     width: 60px;
@@ -1484,6 +1492,10 @@ Usage (In Ghost editor):
 
 .floating-header-share-fb {
     background: #005e99;
+}
+
+.floating-header-share-linkedin {
+    background: #0077B5;    
 }
 
 .progress {
@@ -1538,7 +1550,8 @@ Usage (In Ghost editor):
         font-size: 1.5rem;
     }
     .floating-header-share-tw,
-    .floating-header-share-fb {
+    .floating-header-share-fb,
+    .floating-header-share-linkedin {
         width: 40px;
         height: 40px;
         line-height: 38px;

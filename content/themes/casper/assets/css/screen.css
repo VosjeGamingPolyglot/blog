@@ -625,15 +625,11 @@ The first (most recent) post in the list is styled to be bigger than the others 
 @media (max-width: 1170px) {
     .post-full-content {
         padding: 5vw 7vw 0;
-        border: 1px solid #ccc;
-        border-radius: 25px;
     }
 }
 @media (max-width: 800px) {
     .post-full-content {
         font-size: 1.9rem;
-        border: 1px solid #ccc;
-        border-radius: 25px;
     }
 }
 

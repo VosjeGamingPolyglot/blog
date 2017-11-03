@@ -556,7 +556,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .post-full-header {
     max-width: 1040px;
     margin: 0 auto;
-    padding: 6vw 3vw 3vw;
+    padding: 2vw 3vw 2vw;
     text-align: center;
 }
 @media (max-width: 500px) {
@@ -590,7 +590,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-image {
-    height: 800px;
+    height: 400px;
     margin: 0 -10vw -165px;
     background: var(--lightgrey) center center;
     background-size: cover;
